@@ -1,0 +1,81 @@
+{
+  "base_version": "FreeToken 0.1.2",
+  "changed_source_files": [
+    {
+      "path": "freetoken/engine/engine.py",
+      "upstream_sha256": "c4cdf4fb4eded04ae30e25d260de86cef41860f79dde4fec4097f05e168211b5",
+      "tideway_sha256": "bce9bc6c04003a935cf1350fbee664a16504f81cabe4beff36c103945b1aa7c5"
+    },
+    {
+      "path": "freetoken/kernel/triton/attention.py",
+      "upstream_sha256": "d5f49f3fe0218b43bd5244c48047f2196dccd282fdf33ef32c209a1b66467ae5",
+      "tideway_sha256": "5f759c28e42780d15f1267cccf988ee7d86aac65be1740b659d4d021fa9442ea"
+    },
+    {
+      "path": "freetoken/kvcache/hybrid_swa_pool.py",
+      "upstream_sha256": "02b4ef23663b77320ed778f4e975df8c565a06944047400facd9a3f56863fe93",
+      "tideway_sha256": "2f76c185fb55e1dd8b93e12403e93385bf4520cddb0410188dfd61a691b799eb"
+    },
+    {
+      "path": "freetoken/layers/moe.py",
+      "upstream_sha256": "6e4a6c67b7237102c31ead12dca2d443de437e323b0a8fdaf3d52e07c8132be2",
+      "tideway_sha256": "342def4d4eb5507884420529edbf1e8359edd3aa6fcd29812be01f906a7ed055"
+    },
+    {
+      "path": "freetoken/moe/arena/tideway_arena.c",
+      "upstream_sha256": null,
+      "tideway_sha256": "76bfbb8de734a0fcf6b1ca2491efadab95810285435c7704df243e33f4f85138"
+    },
+    {
+      "path": "freetoken/moe/fused.py",
+      "upstream_sha256": "290ac4413bfbd728a5fdaa2a63e94cc76631b80e5e31cc2817951198e414d25e",
+      "tideway_sha256": "b957d37822c2610cecf143fcac2327ad277593654e99ba4c409170f17dd6e4fa"
+    },
+    {
+      "path": "freetoken/moe/offload_cache.py",
+      "upstream_sha256": "6ddb83c1264f9688db69cd486cf74ee8e2efdd429f139fa934a99ee15e204e32",
+      "tideway_sha256": "aeeb7c7a3935884343e8900a1456eb138e75d8a555f8573ffc31b4c38264db5e"
+    },
+    {
+      "path": "freetoken/moe/offload_kernels.py",
+      "upstream_sha256": "7efdfe7ee827f5945a33bc8827da965cd5c477fa35553fa173783e76ba2f3571",
+      "tideway_sha256": "507e3971b613ef76749e79a2f681668c50c0a9a166a760a048879aef70fafe95"
+    },
+    {
+      "path": "freetoken/moe/phase_seed.py",
+      "upstream_sha256": null,
+      "tideway_sha256": "2f5c33b513782a755ba243ab21559cf433b412bef564dc7ec4c20f66bdd70589"
+    },
+    {
+      "path": "freetoken/moe/seed_empty.py",
+      "upstream_sha256": null,
+      "tideway_sha256": "9174357603b74db0fa0cb218872990b4a1752414f4c1d8476003120aac9ebbc3"
+    },
+    {
+      "path": "freetoken/moe/shift.py",
+      "upstream_sha256": null,
+      "tideway_sha256": "45bf18a861acaf3c312bc989d5c765ed769e524df78e588ac31bc6f1da0eab2e"
+    },
+    {
+      "path": "freetoken/moe/snapshot_compat.py",
+      "upstream_sha256": null,
+      "tideway_sha256": "03f350084d22c7ed502c32ce2e03e57c0bd842570e519d32255d364e99ea5dfb"
+    },
+    {
+      "path": "freetoken/scheduler/cache.py",
+      "upstream_sha256": "7dfe813d677a9097ebf6b9b57c0ac89096ad113c8ad81b2fb280ce99fe9362cb",
+      "tideway_sha256": "61b442d709e361261d6170eb1f00f3243f61f5cf20ec1e6d32131bf60e31a9b3"
+    },
+    {
+      "path": "freetoken/scheduler/prefill.py",
+      "upstream_sha256": "27e6440caf3f54df9424e16a552ed93e489c5cb5b6a357aa909e6bd861d464cf",
+      "tideway_sha256": "734f97ee3f0938e9aff1cf246f70a4abf2899a2f866309d00ca8cc188eb5dde4"
+    },
+    {
+      "path": "freetoken/scheduler/scheduler.py",
+      "upstream_sha256": "21cd18baba03fce7c395f8c695172df7180f8ba9254ac7b8489acb5c20f7f710",
+      "tideway_sha256": "07b0d01c452cf8b4a31575f4b24e8e19f58473cb5ce0975baf7d97dd5e26a6b0"
+    }
+  ],
+  "release_note": "FreeToken 0.1.2 source overlay for the Tideway runtime."
+}

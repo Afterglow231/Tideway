@@ -1,0 +1,150 @@
+{
+  "schema": 1,
+  "clips": [
+    {
+      "name": "single-request",
+      "kind": "recorded generation",
+      "playback_speed": 4,
+      "source_file": "demo_split_v1.mp4",
+      "source_sha256": "7aaea42489040761a52f6ab01ce4eff89bfc74f1406881f246fb356d6d2bdcd0",
+      "label_region": [
+        184,
+        176,
+        155,
+        40
+      ],
+      "preview_excerpt_seconds": [
+        24,
+        36
+      ],
+      "changes": "Display label updated to Tideway; original timing and numerical overlays retained.",
+      "files": {
+        "single-request.mp4": {
+          "bytes": 2646323,
+          "sha256": "60820595cc677dff7f9f527643db6f53d695f219c6469cb9c1ea9120d5e86e9a"
+        },
+        "single-request-poster.png": {
+          "bytes": 590845,
+          "sha256": "4aed3c79a76fc4c1ef1a55ad10f6aa0d7de583a2f951b9d76bbd8bff057fe521"
+        },
+        "single-request-preview.gif": {
+          "bytes": 1605398,
+          "sha256": "a37abfe4d4911cf58700181f0d05a6ad9f2f0d6444e196e062639c247ac6b4cb"
+        }
+      }
+    },
+    {
+      "name": "agent-session",
+      "kind": "measured session replay",
+      "playback_speed": 70,
+      "source_file": "session_S09_lr_720p.mp4",
+      "source_sha256": "6f6f606026d6ea781a8cd129e00344388fe1f3156e0bda2eee97d557ef0867ec",
+      "label_region": [
+        119,
+        117,
+        107,
+        27
+      ],
+      "changes": "Display label updated to Tideway; original timing and numerical overlays retained.",
+      "files": {
+        "agent-session.mp4": {
+          "bytes": 9271552,
+          "sha256": "0449297773552efe47ea8331a71e4201653b05539ecfb52441395d2437f560ad"
+        },
+        "agent-session-poster.png": {
+          "bytes": 298977,
+          "sha256": "af5a7f18c7f721a1b85ddeefe06cea4c2b49e73f0162e0957bea3762149d24d5"
+        },
+        "agent-session.gif": {
+          "bytes": 9308270,
+          "sha256": "2b234010f3f023b74cca277b2b5a204b99e06bc2605ae857dab5390bf99ad20b"
+        }
+      }
+    },
+    {
+      "name": "request-race",
+      "kind": "measured request replay",
+      "playback_speed": 10,
+      "source_file": "race_ds64.mp4",
+      "source_sha256": "cd6d51f3294638acc841b575cda7f368747d9952b2739010461e8713cac831e1",
+      "label_region": [
+        72,
+        278,
+        215,
+        58
+      ],
+      "preview_excerpt_seconds": null,
+      "changes": "Display label updated to Tideway; original timing and numerical overlays retained.",
+      "files": {
+        "request-race.mp4": {
+          "bytes": 525844,
+          "sha256": "7e97e21ae68bf2be7481f72c993d772726242f0dfe0ebf23e7802d54a9951da5"
+        },
+        "request-race-poster.png": {
+          "bytes": 207872,
+          "sha256": "d04cf7d02283e7854c64952162b8acee8d973daaf6dc4960d40efa086e704c4a"
+        },
+        "request-race.gif": {
+          "bytes": 1150865,
+          "sha256": "4d35cf10ba12d9f392fc8a81c59989c06933bd23c2b09dba276298531072dde7"
+        }
+      }
+    },
+    {
+      "name": "expert-residency",
+      "kind": "expert-residency visualization",
+      "playback_speed": null,
+      "source_file": "residency_ds64.mp4",
+      "source_sha256": "d9b84254074bb04c2ea6249b622b2d11aea2aa9ad3e128ff24520fd06fadde22",
+      "label_region": [
+        72,
+        510,
+        215,
+        45
+      ],
+      "changes": "Display label updated to Tideway; original timing and numerical overlays retained.",
+      "files": {
+        "expert-residency.mp4": {
+          "bytes": 255914,
+          "sha256": "410ae71fd069c9c349ea2dee1a656e44a6db6aa61b51634798a26a82ddb8ffa2"
+        },
+        "expert-residency-poster.png": {
+          "bytes": 415128,
+          "sha256": "a565e802fabdcf5aa3d3be00f5866bf6c6bf108a5e9be7ac5561ff769260ef0d"
+        },
+        "expert-residency.gif": {
+          "bytes": 622703,
+          "sha256": "ad23b61e635d3438e5376f374b1752e9dd86369b23739056463135895257181b"
+        }
+      }
+    },
+    {
+      "name": "phase-aware-layout",
+      "kind": "mechanism illustration",
+      "playback_speed": null,
+      "source_file": "fig5_flat.mp4",
+      "source_sha256": "852a8a325c81304318b0818b58e37eda3bf3975361d87c41c44e02b853d52720",
+      "label_region": [
+        996,
+        326,
+        240,
+        52
+      ],
+      "changes": "Display label updated to Tideway; original timing and numerical overlays retained.",
+      "files": {
+        "phase-aware-layout.mp4": {
+          "bytes": 771159,
+          "sha256": "23500930c901c4f10860ae127345d8d7021d71c2f5f5406a41bcde777f3768da"
+        },
+        "phase-aware-layout-poster.png": {
+          "bytes": 352625,
+          "sha256": "a6af9821d39e8abed8a9890f8c1c027dfb2f3c67410d348f621dee2fb226092c"
+        },
+        "phase-aware-layout.gif": {
+          "bytes": 2256751,
+          "sha256": "e69158e1f7a48bfa30ebb9e653672c5d2e9d73e64b67ca26c698e11bb29f9e8e"
+        }
+      }
+    }
+  ]
+}
