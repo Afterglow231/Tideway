@@ -2,7 +2,7 @@ Tideway
 
 The files under backends/freetoken_tideway/freetoken/ are modified versions of files from FreeToken 0.1.2
 (https://github.com/FlashML-org/FreeToken), Copyright the FlashML Team, licensed under the Apache License,
-Version 2.0 (see LICENSE-FreeToken). They are combined with an unmodified FreeToken 0.1.2 installation by
+Version 2.0 (see LICENSE). They are combined with an unmodified FreeToken 0.1.2 installation by
 scripts/build_backend.py.
 
 src/tideway/gemma_route_copy_kernel.py is derived from FreeToken's
@@ -12,4 +12,4 @@ src/tideway/cute_grouped_qkv_norm.py and src/tideway/cute_router_norm_pair.py
 are derived from FlashInfer RMSNorm kernels, Copyright (c) 2025 by the
 FlashInfer team, under the Apache License, Version 2.0. Their original
 copyright and license notices are retained. The Apache-2.0 license text
-is provided in LICENSE-FreeToken.
+is provided in LICENSE.

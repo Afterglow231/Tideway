@@ -1,4 +1,4 @@
-include README.md NOTICE LICENSE-FreeToken requirements.txt
+include README.md NOTICE LICENSE requirements.txt
 recursive-include scripts *.py
 recursive-include baselines *.md *.sh *.c *.cpp
 recursive-include backends *.json *.py *.c

@@ -10,6 +10,12 @@
 </p>
 
 <p align="center">
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-Apache%202.0-blue?style=plastic" alt="License: Apache 2.0" height="22"></a>
+  <a href="https://arxiv.org/abs/2611.14848"><img src="https://img.shields.io/badge/arXiv-2611.14848-b31b1b?style=plastic" alt="arXiv: 2611.14848" height="22"></a>
+</p>
+
+<p align="center">
+  <a href="https://arxiv.org/abs/2611.14848">Paper</a> ·
   <a href="#getting-started">Getting started</a> ·
   <a href="#how-it-works">How it works</a> ·
   <a href="#demos">Demos</a> ·
@@ -156,6 +162,24 @@ docs/media/                   Demo videos, GIFs and posters
 ```
 
 </details>
+
+## Citation
+
+If you find Tideway helpful in your research, please consider citing our paper:
+
+```bibtex
+@misc{wang2026tidewayphaseawaretieredmemory,
+  title         = {Tideway: Phase-Aware Tiered Memory Management for MoE Inference on Consumer Devices},
+  author        = {Yifei Wang and Tsun-yu Yang and Yechen Xu and Hancheng Ye and
+                   Qinsi Wang and Baijun Zhou and Tingjun Chen and Hai "Helen" Li and
+                   Danyang Zhuo and Yiran Chen},
+  year          = {2026},
+  eprint        = {2611.14848},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.OS},
+  url           = {https://arxiv.org/abs/2611.14848}
+}
+```
 
 ## Acknowledgements
 

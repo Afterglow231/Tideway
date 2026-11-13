@@ -9,7 +9,8 @@ description = "Phase-aware tiered memory management for MoE inference"
 readme = "README.md"
 requires-python = ">=3.12"
 dynamic = ["dependencies"]
-license-files = ["LICENSE-FreeToken", "NOTICE"]
+license = "Apache-2.0"
+license-files = ["LICENSE", "NOTICE"]
 
 [tool.setuptools.dynamic]
 dependencies = {file = ["requirements.txt"]}
